@@ -1,0 +1,33 @@
+/*<!-- ************** DISEÑO DE MI NAVBAR***********************-->*/
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+    padding: 90px 20px 0;
+}
+
+.header{
+    background-color: aquamarine;
+    margin: 0px;
+    position: fixed; /*para que no se pierda la barra y siga al scroll*/
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-link{
+    color: white;
+    text-decoration: none;
+}
+
+.logo{
+    padding: 0 40px;
+    line-height: 80px;
+}
