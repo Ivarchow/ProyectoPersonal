@@ -9,20 +9,24 @@ body{
     padding: 90px 20px 0;
 }
 
+/*<!-- ************** POSISCION DE LA NAVBAR***********************-->*/
 .header{
     background-color: aquamarine;
-    margin: 0px;
+    height: 80px;
     position: fixed; /*para que no se pierda la barra y siga al scroll*/
     width: 100%;
     top: 0;
     left: 0;
 }
+/*<!-- ************** DISEÑO DE MI NAVBAR***********************-->*/
+
 .nav{
     display: flex;
     justify-content: space-between;
+    /*la barra esta divida en dos img a la izw y texto a la derecha*/
 }
 
-.nav-link{
+.nav-menu-link{
     color: white;
     text-decoration: none;
 }
@@ -30,4 +34,17 @@ body{
 .logo{
     padding: 0 40px;
     line-height: 80px;
+}
+
+.nav-menu{
+    display: flex;
+    margin-right: 0px;
+    list-style: none;   
+}
+
+.nav-menu-item{
+    font-size: 25px;
+    margin: 0 10px;
+    line-height: 0;
+    text-transform: uppercase;
 }
